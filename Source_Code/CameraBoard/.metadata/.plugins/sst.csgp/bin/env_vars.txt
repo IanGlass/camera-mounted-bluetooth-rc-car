@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide\plugins\sst.tm_1.1.2.201301231705\CSHOME\
+C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide\plugins\sst.csgp_1.0.5\CSHOME
+C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ARMTools
+J:\My Desktop\Canterbury Uni\3rd Pro\ENCE 461\Whacky racers\ence461-3\Software\Camera\WackyRacersCamera\.metadata\.plugins\sst.tm

@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide\plugins\sst.tm_1.1.2.201301231705\CSHOME\
+C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide\plugins\sst.csgp_1.0.5\CSHOME
+C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ARMTools
+J:\Universtity Projects and Documents\Embedded Systems 2013\Software\Comms\.metadata\.plugins\sst.tm

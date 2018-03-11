@@ -1,0 +1,443 @@
+!SESSION 2013-05-24 02:24:20.074 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data J:\Universtity Projects and Documents\Embedded Systems 2013\Software\Comms
+
+!ENTRY TrueSTUDIO 4 0 2013-05-24 02:24:23.114
+!MESSAGE Target:ARM, Model:Lite, Version:4.0.1, Installation dir:/C:/Program Files (x86)/Atollic/TrueSTUDIO for ARM Lite 4.0.1/ide/
+
+!ENTRY org.eclipse.ui 2 0 2013-05-24 02:24:24.996
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:24:24.996
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:24:24.996
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:24:24.996
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:24:24.996
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:24:24.996
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:24:24.996
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:24:24.997
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:24:24.997
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:24:29.329
+!MESSAGE sst.gp.core earlyStartup()
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:24:29.356
+!MESSAGE Register ResourceChangeListener to current workspace
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:24:29.371
+!MESSAGE Register WorkspaceSelectionListener to current workspace
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:24:29.504
+!MESSAGE ##sst.gp.core Util##PLATFORM_INSTALL_LOCATION: C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:24:29.510
+!MESSAGE Platform installed location : C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:24:29.517
+!MESSAGE IS_ATOLLIC_PLUGIN_INSTALLED : true
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:24:29.523
+!MESSAGE ATOLLIC_INSTALL_STATUS(stm32): -1
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:24:29.530
+!MESSAGE ATOLLIC_INSTALL_STATUS(avr): -1
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:24:29.536
+!MESSAGE ATOLLIC_INSTALL_STATUS(arm): 2
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:24:29.557
+!MESSAGE iconv is loaded.
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:24:29.574
+!MESSAGE est is loaded.
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:24:29.587
+!MESSAGE libiconv-2 is loaded.
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:24:29.601
+!MESSAGE libintl-2 is loaded.
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:24:29.632
+!MESSAGE xerces-c_2_7 is loaded.
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:24:29.650
+!MESSAGE RIMXJNI is loaded.
+
+!ENTRY sst.csgp 1 0 2013-05-24 02:24:30.164
+!MESSAGE platform install loc : C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide
+
+!ENTRY sst.tm 1 0 2013-05-24 02:24:30.183
+!MESSAGE C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide\plugins\sst.tm_1.1.2.201301231705\CSHOME\
+
+!ENTRY sst.tm 1 0 2013-05-24 02:24:30.256
+!MESSAGE J:\Universtity Projects and Documents\Embedded Systems 2013\Software\Comms\.metadata\.plugins\sst.tm
+
+!ENTRY sst.tm 1 0 2013-05-24 02:26:23.759
+!MESSAGE 
+
+
+---------------------------------------------------
+2013/05/24 02:26:23
+---------------------------------------------------
+
+!SESSION 2013-05-24 02:26:42.922 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data J:\Universtity Projects and Documents\Embedded Systems 2013\Software\Comms
+
+!ENTRY TrueSTUDIO 4 0 2013-05-24 02:26:44.526
+!MESSAGE Target:ARM, Model:Lite, Version:4.0.1, Installation dir:/C:/Program Files (x86)/Atollic/TrueSTUDIO for ARM Lite 4.0.1/ide/
+
+!ENTRY org.eclipse.ui 2 0 2013-05-24 02:26:46.338
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:26:46.338
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:26:46.338
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:26:46.338
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:26:46.338
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:26:46.338
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:26:46.338
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:26:46.338
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:26:46.338
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:26:48.248
+!MESSAGE sst.gp.core earlyStartup()
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:26:48.255
+!MESSAGE Register ResourceChangeListener to current workspace
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:26:48.262
+!MESSAGE Register WorkspaceSelectionListener to current workspace
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:26:48.278
+!MESSAGE ##sst.gp.core Util##PLATFORM_INSTALL_LOCATION: C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:26:48.283
+!MESSAGE Platform installed location : C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:26:48.289
+!MESSAGE iconv is loaded.
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:26:48.295
+!MESSAGE IS_ATOLLIC_PLUGIN_INSTALLED : true
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:26:48.301
+!MESSAGE est is loaded.
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:26:48.307
+!MESSAGE ATOLLIC_INSTALL_STATUS(stm32): -1
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:26:48.313
+!MESSAGE libiconv-2 is loaded.
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:26:48.319
+!MESSAGE ATOLLIC_INSTALL_STATUS(avr): -1
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:26:48.325
+!MESSAGE libintl-2 is loaded.
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:26:48.332
+!MESSAGE ATOLLIC_INSTALL_STATUS(arm): 2
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:26:48.338
+!MESSAGE xerces-c_2_7 is loaded.
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:26:48.345
+!MESSAGE RIMXJNI is loaded.
+
+!ENTRY sst.csgp 1 0 2013-05-24 02:26:48.377
+!MESSAGE platform install loc : C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide
+
+!ENTRY sst.tm 1 0 2013-05-24 02:26:48.386
+!MESSAGE C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide\plugins\sst.tm_1.1.2.201301231705\CSHOME\
+
+!ENTRY sst.tm 1 0 2013-05-24 02:26:48.399
+!MESSAGE J:\Universtity Projects and Documents\Embedded Systems 2013\Software\Comms\.metadata\.plugins\sst.tm
+
+!ENTRY sst.tm 1 0 2013-05-24 02:28:26.722
+!MESSAGE 
+
+
+---------------------------------------------------
+2013/05/24 02:28:26
+---------------------------------------------------
+
+!SESSION 2013-05-24 02:29:53.936 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY TrueSTUDIO 4 0 2013-05-24 02:29:55.293
+!MESSAGE Target:ARM, Model:Lite, Version:4.0.1, Installation dir:/C:/Program Files (x86)/Atollic/TrueSTUDIO for ARM Lite 4.0.1/ide/
+
+!ENTRY org.eclipse.ui 2 0 2013-05-24 02:29:57.101
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:29:57.102
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:29:57.102
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:29:57.102
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:29:57.102
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:29:57.102
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:29:57.102
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:29:57.102
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:29:57.102
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:29:59.001
+!MESSAGE sst.gp.core earlyStartup()
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:29:59.009
+!MESSAGE Register ResourceChangeListener to current workspace
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:29:59.015
+!MESSAGE Register WorkspaceSelectionListener to current workspace
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:29:59.033
+!MESSAGE ##sst.gp.core Util##PLATFORM_INSTALL_LOCATION: C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:29:59.039
+!MESSAGE Platform installed location : C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:29:59.044
+!MESSAGE iconv is loaded.
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:29:59.050
+!MESSAGE IS_ATOLLIC_PLUGIN_INSTALLED : true
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:29:59.056
+!MESSAGE est is loaded.
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:29:59.062
+!MESSAGE ATOLLIC_INSTALL_STATUS(stm32): -1
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:29:59.068
+!MESSAGE libiconv-2 is loaded.
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:29:59.074
+!MESSAGE ATOLLIC_INSTALL_STATUS(avr): -1
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:29:59.080
+!MESSAGE libintl-2 is loaded.
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:29:59.087
+!MESSAGE ATOLLIC_INSTALL_STATUS(arm): 2
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:29:59.094
+!MESSAGE xerces-c_2_7 is loaded.
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:29:59.101
+!MESSAGE RIMXJNI is loaded.
+
+!ENTRY sst.csgp 1 0 2013-05-24 02:29:59.132
+!MESSAGE platform install loc : C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide
+
+!ENTRY sst.tm 1 0 2013-05-24 02:29:59.141
+!MESSAGE C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide\plugins\sst.tm_1.1.2.201301231705\CSHOME\
+
+!ENTRY sst.tm 1 0 2013-05-24 02:29:59.153
+!MESSAGE J:\Universtity Projects and Documents\Embedded Systems 2013\Software\Comms\.metadata\.plugins\sst.tm
+
+!ENTRY org.eclipse.core.jobs 2 2 2013-05-24 02:30:33.500
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.Workbench$63
+!SESSION 2013-05-24 02:30:34.609 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data J:\Universtity Projects and Documents\Embedded Systems 2013\Software\Comms
+
+!ENTRY TrueSTUDIO 4 0 2013-05-24 02:30:35.895
+!MESSAGE Target:ARM, Model:Lite, Version:4.0.1, Installation dir:/C:/Program Files (x86)/Atollic/TrueSTUDIO for ARM Lite 4.0.1/ide/
+
+!ENTRY org.eclipse.ui 2 0 2013-05-24 02:30:37.740
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:30:37.740
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:30:37.740
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:30:37.740
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:30:37.740
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:30:37.741
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:30:37.741
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:30:37.741
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:30:37.741
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:30:39.850
+!MESSAGE sst.gp.core earlyStartup()
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:30:39.856
+!MESSAGE Register ResourceChangeListener to current workspace
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:30:39.861
+!MESSAGE Register WorkspaceSelectionListener to current workspace
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:30:39.873
+!MESSAGE ##sst.gp.core Util##PLATFORM_INSTALL_LOCATION: C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:30:39.878
+!MESSAGE Platform installed location : C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:30:39.884
+!MESSAGE IS_ATOLLIC_PLUGIN_INSTALLED : true
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:30:39.889
+!MESSAGE iconv is loaded.
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:30:39.894
+!MESSAGE ATOLLIC_INSTALL_STATUS(stm32): -1
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:30:39.899
+!MESSAGE est is loaded.
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:30:39.903
+!MESSAGE ATOLLIC_INSTALL_STATUS(avr): -1
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:30:39.908
+!MESSAGE libiconv-2 is loaded.
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:30:39.912
+!MESSAGE ATOLLIC_INSTALL_STATUS(arm): 2
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:30:39.918
+!MESSAGE libintl-2 is loaded.
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:30:39.924
+!MESSAGE xerces-c_2_7 is loaded.
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:30:39.931
+!MESSAGE RIMXJNI is loaded.
+
+!ENTRY sst.csgp 1 0 2013-05-24 02:30:39.961
+!MESSAGE platform install loc : C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide
+
+!ENTRY sst.tm 1 0 2013-05-24 02:30:39.968
+!MESSAGE C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide\plugins\sst.tm_1.1.2.201301231705\CSHOME\
+
+!ENTRY sst.tm 1 0 2013-05-24 02:30:39.978
+!MESSAGE J:\Universtity Projects and Documents\Embedded Systems 2013\Software\Comms\.metadata\.plugins\sst.tm
+
+!ENTRY sst.tm 1 0 2013-05-24 02:30:39.988
+!MESSAGE 
+
+
+---------------------------------------------------
+2013/05/24 02:30:39
+---------------------------------------------------
+
+!SESSION 2013-05-24 02:34:45.481 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data J:\Universtity Projects and Documents\Embedded Systems 2013\Software\Comms
+
+!ENTRY TrueSTUDIO 4 0 2013-05-24 02:34:46.794
+!MESSAGE Target:ARM, Model:Lite, Version:4.0.1, Installation dir:/C:/Program Files (x86)/Atollic/TrueSTUDIO for ARM Lite 4.0.1/ide/
+
+!ENTRY org.eclipse.ui 2 0 2013-05-24 02:34:48.615
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:34:48.615
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:34:48.615
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:34:48.615
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:34:48.615
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:34:48.615
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:34:48.615
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:34:48.615
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-05-24 02:34:48.615
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:34:50.547
+!MESSAGE sst.gp.core earlyStartup()
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:34:50.554
+!MESSAGE Register ResourceChangeListener to current workspace
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:34:50.560
+!MESSAGE Register WorkspaceSelectionListener to current workspace
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:34:50.576
+!MESSAGE ##sst.gp.core Util##PLATFORM_INSTALL_LOCATION: C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:34:50.582
+!MESSAGE Platform installed location : C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:34:50.588
+!MESSAGE IS_ATOLLIC_PLUGIN_INSTALLED : true
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:34:50.594
+!MESSAGE iconv is loaded.
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:34:50.600
+!MESSAGE ATOLLIC_INSTALL_STATUS(stm32): -1
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:34:50.606
+!MESSAGE est is loaded.
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:34:50.613
+!MESSAGE ATOLLIC_INSTALL_STATUS(avr): -1
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:34:50.619
+!MESSAGE libiconv-2 is loaded.
+
+!ENTRY sst.gp.core 1 0 2013-05-24 02:34:50.625
+!MESSAGE ATOLLIC_INSTALL_STATUS(arm): 2
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:34:50.631
+!MESSAGE libintl-2 is loaded.
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:34:50.638
+!MESSAGE xerces-c_2_7 is loaded.
+
+!ENTRY com.suresofttech.cs.rimx 1 0 2013-05-24 02:34:50.645
+!MESSAGE RIMXJNI is loaded.
+
+!ENTRY sst.csgp 1 0 2013-05-24 02:34:50.675
+!MESSAGE platform install loc : C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide
+
+!ENTRY sst.tm 1 0 2013-05-24 02:34:50.684
+!MESSAGE C:\Program Files (x86)\Atollic\TrueSTUDIO for ARM Lite 4.0.1\ide\plugins\sst.tm_1.1.2.201301231705\CSHOME\
+
+!ENTRY sst.tm 1 0 2013-05-24 02:34:50.697
+!MESSAGE J:\Universtity Projects and Documents\Embedded Systems 2013\Software\Comms\.metadata\.plugins\sst.tm
+
+!ENTRY org.eclipse.core.jobs 2 2 2013-05-24 02:35:39.772
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.Workbench$63

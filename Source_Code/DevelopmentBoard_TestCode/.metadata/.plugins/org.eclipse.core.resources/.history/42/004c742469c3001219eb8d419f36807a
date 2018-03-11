@@ -1,0 +1,137 @@
+/**
+*****************************************************************************
+**
+**  File        : main.c
+**
+**  Abstract    : main function.
+**
+**  Functions   : main
+**
+**  Environment : Atollic TrueSTUDIO(R)
+**                STMicroelectronics STM32F4xx Standard Peripherals Library
+**
+**  Distribution: The file is distributed “as is,” without any warranty
+**                of any kind.
+**
+**  (c)Copyright Atollic AB.
+**  You may use this file as-is or modify it according to the needs of your
+**  project. This file may only be built (assembled or compiled and linked)
+**  using the Atollic TrueSTUDIO(R) product. The use of this file together
+**  with other tools than Atollic TrueSTUDIO(R) is not permitted.
+**
+*****************************************************************************
+*/
+
+/* Includes */
+#include "stm32f4xx.h"
+#include "stm32f4xx_gpio.h"
+#include "stm32f4xx_tim.h"
+#include "stm32f4xx_i2c.h"
+
+
+
+#include <stdio.h>
+
+#include "main.h"
+#include "uart.h"
+#include "led.h"
+#include "button.h"
+#include "timer.h"
+#include "standby.h"
+#include "i2c.h"
+#include "debug_gpio.h"
+
+
+//#include "image.h"
+
+
+/* Global Variables */
+long unsigned int sysTick=0;
+
+
+/**
+**===========================================================================
+**
+**  Abstract: main program
+**
+**===========================================================================
+*/
+
+int main(void)
+{
+	// Initiate Peripherals
+	//SystemInit();
+	//SysTick_Config(SystemCoreClock/1000);
+	init_all();
+
+	int i=0;
+	int buffSize=5000;
+
+	uint8_t rxBuff[buffSize];
+	//led_on(DEBUG_LED_0);
+
+
+	SystemInit();
+
+	//RCC_HSICmd(ENABLE);
+	//RCC_PLLConfig(RCC_PLLSource_HSI, 40, 200, 4, 4);
+	//RCC_MCO1Config(RCC_MCO1Source_HSI, RCC_MCO1Div_1);
+	//SetSysClock();
+
+
+	//Initiate Debug GPIO
+	GPIO_InitTypeDef  GPIO_InitStructure;
+
+	//Initiate on Port A
+	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
+
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_1;
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
+	GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_100MHz;
+	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_NOPULL;
+
+	GPIO_Init(GPIOC,&GPIO_InitStructure);
+
+
+
+	for(i=0;i<20;i++){
+		rxBuff[i]='a'+i;
+	}
+
+
+	while (1)
+	{
+		//if(RCC_GetSYSCLKSource()==0x00){
+			GPIO_ToggleBits(GPIOC,GPIO_Pin_1);
+		//}
+
+		//i2c_master_recv_buffer(MOTOR_ADDRESS,rxBuff,buffSize);
+		//led_toggle(DEBUG_LED_0|DEBUG_LED_1);
+		//rxBuff[0]=20;
+		//i2c_master_send_buffer(MOTOR_ADDRESS,rxBuff,20);
+		//timer_ms_delay(1000);
+		//led_toggle(DEBUG_LED_0|DEBUG_LED_1);
+	}
+}
+
+
+void init_all()
+{
+
+
+	//led_init();
+	//button_init();
+	timer_init();
+	//standby_init();
+	uart_init();
+	debug_gpio_init();
+	i2c_init();
+
+	//led_on(STATUS_LED_ON);
+	uart_send("Init complete!");
+}
+
+
+
+

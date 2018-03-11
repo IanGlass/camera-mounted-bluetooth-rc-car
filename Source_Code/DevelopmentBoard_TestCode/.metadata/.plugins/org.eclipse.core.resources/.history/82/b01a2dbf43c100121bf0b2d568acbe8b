@@ -1,0 +1,59 @@
+/*
+ * camera_i2c.h
+ *
+ *  Created on: May 19, 2013
+ *      Author: mlk28
+ */
+
+#ifndef CAMERA_I2C_H_
+#define CAMERA_I2C_H_
+
+
+#include <stm32f4xx.h>
+#include <stm32f4xx_i2c.h>
+
+#define SLAVE_ADDRESS 0x3D // the slave address (example)
+
+void camera_i2c_init(void);
+
+
+
+
+/* This function issues a start condition and
+ * transmits the slave address + R/W bit
+ *
+ * Parameters:
+ * 		I2Cx --> the I2C peripheral e.g. I2C2
+ * 		address --> the 7 bit slave address
+ * 		direction --> the tranmission direction can be:
+ * 						I2C_Direction_Tranmitter for Master transmitter mode
+ * 						I2C_Direction_Receiver for Master receiver
+ */
+void camera_i2c_start(I2C_TypeDef* I2Cx, uint8_t address, uint8_t direction);
+
+/* This function transmits one byte to the slave device
+ * Parameters:
+ *		I2Cx --> the I2C peripheral e.g. I2C2
+ *		data --> the data byte to be transmitted
+ */
+void camera_i2c_write(I2C_TypeDef* I2Cx, uint8_t data);
+
+/* This function reads one byte from the slave device
+ * and acknowledges the byte (requests another byte)
+ */
+uint8_t camera_i2c_read_ack(I2C_TypeDef* I2Cx);
+
+/* This function reads one byte from the slave device
+ * and doesn't acknowledge the recieved data
+ */
+uint8_t camera_i2c_read_nack(I2C_TypeDef* I2Cx);
+
+/* This funtion issues a stop condition and therefore
+ * releases the bus
+ */
+void camera_i2c_stop(I2C_TypeDef* I2Cx);
+
+
+
+
+#endif /* CAMERA_I2C_H_ */

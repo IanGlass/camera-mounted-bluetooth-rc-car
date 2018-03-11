@@ -1,0 +1,60 @@
+
+------------------------------------
+  Logging start.  ## CURRENT TIME  : [5/18, 2013   3:23  24.159]  ## COMMAND LINE  : 
+cmd /C "gen_csini.exe"
+------------------------------------
+[STD-IN] : J:\Universtity Projects and Documents\Embedded Systems 2013\Software\Development Board\.metadata\.plugins\sst.csgp\bin\env_vars.txt
+GUI is waiting for subprocess to be done...
+Execution done. EXIT CODE = 0
+  Logging finished.  ## CURRENT TIME  : [5/18, 2013   3:26  13.847]
+------------------------------------
+
+------------------------------------
+  Logging start.  ## CURRENT TIME  : [5/20, 2013   21:23  46.512]  ## COMMAND LINE  : 
+cmd /C "gen_csini.exe"
+------------------------------------
+[STD-IN] : J:\Universtity Projects and Documents\Embedded Systems 2013\Software\Development Board\.metadata\.plugins\sst.csgp\bin\env_vars.txt
+GUI is waiting for subprocess to be done...
+Execution done. EXIT CODE = 0
+  Logging finished.  ## CURRENT TIME  : [5/20, 2013   21:25  20.32]
+------------------------------------
+
+------------------------------------
+  Logging start.  ## CURRENT TIME  : [5/20, 2013   23:29  24.911]  ## COMMAND LINE  : 
+cmd /C "gen_csini.exe"
+------------------------------------
+[STD-IN] : J:\Universtity Projects and Documents\Embedded Systems 2013\Software\Development Board\.metadata\.plugins\sst.csgp\bin\env_vars.txt
+GUI is waiting for subprocess to be done...
+Execution done. EXIT CODE = 0
+  Logging finished.  ## CURRENT TIME  : [5/20, 2013   23:31  23.52]
+------------------------------------
+
+------------------------------------
+  Logging start.  ## CURRENT TIME  : [5/21, 2013   5:26  19.752]  ## COMMAND LINE  : 
+cmd /C "gen_csini.exe"
+------------------------------------
+[STD-IN] : J:\Universtity Projects and Documents\Embedded Systems 2013\Software\Development Board\.metadata\.plugins\sst.csgp\bin\env_vars.txt
+GUI is waiting for subprocess to be done...
+Execution done. EXIT CODE = 0
+  Logging finished.  ## CURRENT TIME  : [5/21, 2013   5:28  24.72]
+------------------------------------
+
+------------------------------------
+  Logging start.  ## CURRENT TIME  : [5/23, 2013   13:11  25.753]  ## COMMAND LINE  : 
+cmd /C "gen_csini.exe"
+------------------------------------
+[STD-IN] : J:\Universtity Projects and Documents\Embedded Systems 2013\Software\Development Board\.metadata\.plugins\sst.csgp\bin\env_vars.txt
+GUI is waiting for subprocess to be done...
+Execution done. EXIT CODE = 0
+  Logging finished.  ## CURRENT TIME  : [5/23, 2013   13:13  57.260]
+------------------------------------
+
+------------------------------------
+  Logging start.  ## CURRENT TIME  : [5/23, 2013   17:20  22.793]  ## COMMAND LINE  : 
+cmd /C "gen_csini.exe"
+------------------------------------
+[STD-IN] : J:\Universtity Projects and Documents\Embedded Systems 2013\Software\Development Board\.metadata\.plugins\sst.csgp\bin\env_vars.txt
+GUI is waiting for subprocess to be done...
+Execution done. EXIT CODE = 0
+  Logging finished.  ## CURRENT TIME  : [5/23, 2013   17:22  35.93]
+------------------------------------

@@ -1,0 +1,49 @@
+1) Download Attolic Embedded Workbench (This is used for programming/debugging via the SWD link)
+	http://www.atollic.com/index.php/download/truestudio-for-arm 
+
+	- Open Appropriate Workspace I have set up.
+
+		- Comms
+		- Camera
+		- Motor 
+		- Dev Board
+
+
+Programming Hardware setup:
+
+	- Grab a Dev board and some female to female cords (got heaps)
+	- Find the SWD header 6 pin header (Calling the end with the dot 1):
+
+		from Dev board to Wacky Racers boards:
+		- Pin 1/??? 	to ??? (Dev Board:GND)    ------- N/A
+		- Pin 2/T_JTCK 	to SWCLK (Dev Board:PA14)
+		- Pin 3/GND	to DGND (Dev Board:GND)
+		- Pin 4/T_JTMS  to SWDIO (Dev Board:PA13)
+		- Pin 5/T_NRST 	to NRST (Dev Board:NRST)
+		- Pin 6/T_SWO 	to GND (Dev Board:PB3)    ------- N/A
+
+ 
+
+
+2) Download and Install Tera Term (This is used for uart communication with the chip)
+	- Go New Connection -> Serial Connection -> USB Serial Port (COMX)
+	- Setup -> Serial Port Baud Rate -> 115200 .
+	- Setup -> Terminal -> Make syre recieve and transmit are 'CR' under new-line and encavble local echo.
+
+	To Enable Serial Comms with MCU enter the following in the terminal (By \n I mean enter) 'm\n','3\n','9\n','1\n','1\n','2\n' then '(2)'
+
+	Ensure the following hardware Hardware- Connection (DEV BOARD) to Bus Pirate 
+		- MISO (bus Pirate) to PA2 (Usart2 Tx) (SCL)
+		- MOSI (bus pirate) to PA3 (Usart2 Rx)
+		- GND to GND
+
+
+3)	Some Notes about Common Code:
+
+	- I have developed some code for printing to the terminal via the dev board and will
+	  port this out 64 pin controller when we begin programming. (Thurday Week 4).
+
+	- I am working on I2C code between two dev boards and then I will port to new MCU too. (Thursday Week 4).
+
+
+	

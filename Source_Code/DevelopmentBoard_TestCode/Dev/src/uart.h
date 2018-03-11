@@ -1,0 +1,61 @@
+/*
+ * uart.h
+ *
+ *  Created on: May 19, 2013
+ *      Author: mlk28, nbb23
+ */
+
+#ifndef UART_H_
+#define UART_H_
+
+#include <stm32f4xx.h>
+#include "board.h"
+
+// Choose I2C pins or some other USART pins.
+// This is not configured for JTAG at this stage.
+
+#ifdef BOARD_CAMERA
+#define UART_CLK_RCC RCC_APB2Periph_USART1
+#define UART_BUS_RCC RCC_AHB1Periph_GPIOA
+#define UART_TX_BUS GPIOA
+#define UART_TX_PIN GPIO_Pin_9
+#define UART_TX_SOURCE GPIO_PinSource9
+#define UART_RX_BUS GPIOA
+#define UART_RX_PIN GPIO_Pin_10
+#define UART_RX_SOURCE GPIO_PinSource10
+#define UART_LINE_AF GPIO_AF_USART1
+#define UART_LINE USART1
+#endif
+
+#ifdef BOARD_MOTOR
+#define UART_CLK_RCC RCC_APB2Periph_USART1
+#define UART_BUS_RCC RCC_AHB1Periph_GPIOA
+#define UART_TX_BUS GPIOA
+#define UART_TX_PIN GPIO_Pin_9
+#define UART_TX_SOURCE GPIO_PinSource9
+#define UART_RX_BUS GPIOA
+#define UART_RX_PIN GPIO_Pin_10
+#define UART_RX_SOURCE GPIO_PinSource10
+#define UART_LINE_AF GPIO_AF_USART1
+#define UART_LINE USART1
+#endif
+
+#ifdef BOARD_COMMS
+//NEED DEFINITIONS - For I2C:
+#define UART_CLK_RCC RCC_APB1Periph_USART3
+#define UART_BUS_RCC RCC_AHB1Periph_GPIOB
+#define UART_TX_BUS GPIOB
+#define UART_TX_PIN GPIO_Pin_10
+#define UART_TX_SOURCE GPIO_PinSource10
+#define UART_RX_BUS GPIOB
+#define UART_RX_PIN GPIO_Pin_11
+#define UART_RX_SOURCE GPIO_PinSource11
+#define UART_LINE_AF GPIO_AF_USART3
+#define UART_LINE USART3
+#endif
+
+void uart_init(void);
+void uart_send(const char *message);
+
+
+#endif /* UART_H_ */

@@ -1,0 +1,63 @@
+/*
+ * camera_timer.c
+ *
+ *  Created on: May 19, 2013
+ *      Author: mlk28
+ */
+
+#include <stm32f4xx.h>
+#include <stm32f4xx_gpio.h>
+#include <stm32f4xx_tim.h>
+#include "camera_timer.h"
+
+
+unsigned int counter=0;
+extern long unsigned int sysTick;
+
+void camera_timer_init(void)
+{
+	NVIC_InitTypeDef NVIC_InitStructure;
+	/* Enable the TIM2 global Interrupt */
+	NVIC_InitStructure.NVIC_IRQChannel = TIM2_IRQn;
+	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
+	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 1;
+	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+	NVIC_Init(&NVIC_InitStructure);
+
+	TIM_TimeBaseInitTypeDef TIM_TimeBaseStructure;
+
+	/* TIM2 clock enable */
+	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2, ENABLE);
+	/* Time base configuration */
+	TIM_TimeBaseStructure.TIM_Period = 1000 - 1; // 1 MHz down to 1 KHz (1 ms)
+	TIM_TimeBaseStructure.TIM_Prescaler = 16 - 1; // 24 MHz Clock down to 1 MHz (adjust per your clock) //Was 84
+	TIM_TimeBaseStructure.TIM_ClockDivision = 0;
+	TIM_TimeBaseStructure.TIM_CounterMode = TIM_CounterMode_Up;
+	TIM_TimeBaseInit(TIM2, &TIM_TimeBaseStructure);
+	/* TIM IT enable */
+	TIM_ITConfig(TIM2, TIM_IT_Update, ENABLE);
+	/* TIM2 enable counter */
+	TIM_Cmd(TIM2, ENABLE);
+}
+
+
+void camera_timer_ms_delay(long unsigned int delay_ms){
+	long unsigned int start=sysTick;
+	while((sysTick-start)<delay_ms){
+		__NOP();
+	}
+
+}
+
+
+void TIM2_IRQHandler(void)
+
+{
+
+
+	if (TIM_GetITStatus(TIM2, TIM_IT_Update) != RESET)
+	{
+		sysTick++;
+		TIM_ClearITPendingBit(TIM2, TIM_IT_Update);
+	}
+}

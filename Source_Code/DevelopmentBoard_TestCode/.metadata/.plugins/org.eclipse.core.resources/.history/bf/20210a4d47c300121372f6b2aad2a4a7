@@ -1,0 +1,18 @@
+/*
+ * camera_timer.h
+ *
+ *  Created on: May 19, 2013
+ *      Author: mlk28
+ */
+
+#ifndef CAMERA_TIMER_H_
+#define CAMERA_TIMER_H_
+
+void camera_timer_init(void);
+
+void camera_timer_ms_delay(long unsigned int delay_ms);
+
+void TIM2_IRQHandler(void);
+
+
+#endif /* CAMERA_TIMER_H_ */

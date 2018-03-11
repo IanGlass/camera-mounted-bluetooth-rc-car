@@ -1,0 +1,25 @@
+/*
+ * camera_uart.h
+ *
+ *  Created on: May 19, 2013
+ *      Author: mlk28
+ */
+
+#ifndef CAMERA_UART_H_
+#define CAMERA_UART_H_
+
+
+#include "stm32f4xx.h"
+
+
+void camera_uart_delay( uint32_t nCount);
+
+
+void camera_uart_init(void);
+
+
+void camera_uart_send(const char *message);
+
+
+
+#endif /* CAMERA_UART_H_ */
