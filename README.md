@@ -4,6 +4,7 @@ Embedded systems six-person project (known as "Wacky Racers") to design and impl
 
 ## Motor Control / Power Board
 <img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32_Camera_Schematics/Camera_Board_Photo.jpg" width="360">
+<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32_Camera_Schematics/Camera_Analogue_Schematic.pdf" width="360">
 
 ## Camera Board
 
