@@ -12,7 +12,9 @@ Embedded systems six-person project (known as "Wacky Racers") to design and impl
 ## Communications Board
 
 <img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32_Comms_Schematics/Comms_Board_Photo.jpg" width="360">
-<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32_Comms_Schematics/Comms_Schematic.jpg" width="360"> <img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32_Comms_Schematics/Micro_Schematic.jpg" width="360">
+<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32_Comms_Schematics/Comms_Schematic.jpg" width="360"> 
+<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32_Comms_Schematics/Micro_Schematic.jpg" width="360">
+<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32_Comms_Schematics/Debug_Schematic.jpg" width="360">
 <img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32_Comms_Schematics/CommsPCB.jpg" width="360">
 
 
