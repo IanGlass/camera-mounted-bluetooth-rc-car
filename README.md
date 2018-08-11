@@ -4,22 +4,46 @@ Embedded systems six-person project (known as "Wacky Racers") to design and impl
 
 ## Camera Board
 
-<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Camera-Schematics/Camera-Board-Photo.jpg" width="360">
-<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Camera-Schematics/Camera-Analogue-Schematic.jpg" width="360">
-<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Camera-Schematics/Camera-Digital-Schematic.jpg" width="360">
-<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Camera-Schematics/Camera-PCB.jpg" width="360">
+<p align="center">
+<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Camera-Schematics/Camera-Board-Photo.jpg" width="400">
+</p>
+<p align="center">
+<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Camera-Schematics/Camera-Analogue-Schematic.jpg" width="600">
+</p>
+<p align="center">
+<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Camera-Schematics/Camera-Digital-Schematic.jpg" width="600">
+</p>
+<p align="center">
+<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Camera-Schematics/Camera-PCB.jpg" width="500">
+</p>
 
 ## Communications Board
 
-<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Comms-Schematics/Comms-Board-Photo.jpg" width="360">
-<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Comms-Schematics/Comms-Schematic.jpg" width="360"> 
-<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Comms-Schematics/Micro-Schematic.jpg" width="360">
-<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Comms-Schematics/Debug-Schematic.jpg" width="360">
-<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Comms-Schematics/CommsPCB.jpg" width="360">
+<p align="center">
+<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Comms-Schematics/Comms-Board-Photo.jpg" width="400">
+</p>
+<p align="center">
+<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Comms-Schematics/Comms-Schematic.jpg" width="600">
+</p>
+<p align="center">
+<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Comms-Schematics/Micro-Schematic.jpg" width="600">
+</p>
+<p align="center">
+<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Comms-Schematics/Debug-Schematic.jpg" width="600">
+</p>
+<p align="center">
+<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Comms-Schematics/CommsPCB.jpg" width="500">
+</p>
 
 
 ## Motor Control / Power Board
 
-<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Motor-Schematics/Motor-Board-Photo.jpg" width="360">
-<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Motor-Schematics/Motor-Board-Schematic.jpg" width="360">
-<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Motor-Schematics/motorPCB.jpg" width="360">
+<p align="center">
+<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Motor-Schematics/Motor-Board-Photo.jpg" width="400">
+</p>
+<p align="center">
+<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Motor-Schematics/Motor-Board-Schematic.jpg" width="600">
+</p>
+<p align="center">
+<img src="https://github.com/IanGlass/Camera-Mounted-Bluetooth-RC-Car/blob/master/STM32-Motor-Schematics/motorPCB.jpg" width="500">
+</p>
